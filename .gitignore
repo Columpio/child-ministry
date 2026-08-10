@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+
+# дамп VK (медиа, ~7 ГБ) — не храним в git
+vk_board/
+vk_dump/
+*.log
