@@ -5,3 +5,7 @@ __pycache__/
 vk_board/
 vk_dump/
 *.log
+
+# служебное
+.pi/
+.pi-subagents/
