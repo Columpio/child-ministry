@@ -6,6 +6,12 @@ vk_board/
 vk_dump/
 *.log
 
+# Google Drive sync credentials and local checkpoint
+.env
+.google_token.json
+.google_comments_sync_state.json
+google-oauth-client.json
+
 # служебное
 .pi/
 .pi-subagents/

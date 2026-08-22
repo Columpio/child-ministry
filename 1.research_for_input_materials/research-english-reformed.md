@@ -1,0 +1,116 @@
+# Англоязычные реформатские и евангельские материалы для детей (до 12 лет)
+
+Ниже — проверяемые по структуре URL известных издателей/служений; оценки предварительные (0–10), с приоритетом последовательного разбора текста и реформатской теологии.
+
+- [Truth78 — Curriculum overview](https://truth78.org/collections/curriculum) — каталог последовательных библейских курсов для дошкольников и младших школьников.
+  - Релевантность: **10/10** — сильная реформатская и христоцентричная линия, но большинство материалов платные и требуют подготовки учителя.
+- [Truth78 — The ABCs of God](https://truth78.org/products/the-abcs-of-god) — курс о Божьих атрибутах для 2–5 лет.
+  - Релевантность: **9/10** — ясное богословие и возрастная методика, слабее последовательного чтения одной книги.
+- [Truth78 — Jesus, What a Savior!](https://truth78.org/products/jesus-what-a-savior) — курс по искупительной истории для 5–7 лет.
+  - Релевантность: **10/10** — последовательно ведёт к Евангелию, но доступ ограничен платной лицензией.
+- [Truth78 — Faithful to All His Promises](https://truth78.org/products/faithful-to-all-his-promises) — библейский курс о Божьих обетованиях для 7–9 лет.
+  - Релевантность: **9/10** — хорошо связывает Ветхий и Новый Завет, отдельные уроки тематичны.
+- [Truth78 — In the Beginning Jesus](https://truth78.org/products/in-the-beginning-jesus) — курс по Бытие 1–11 для младших школьников.
+  - Релевантность: **10/10** — текстовый разбор с христоцентричным контекстом, но рассчитан на конкретный возраст.
+- [Truth78 — To Be Like Jesus](https://truth78.org/products/to-be-like-jesus) — курс по освящению и ученичеству детей.
+  - Релевантность: **8/10** — хорошее применение Евангелия, меньше последовательного библейского повествования.
+- [Truth78 — How Majestic Is Your Name](https://truth78.org/products/how-majestic-is-your-name) — курс по Псалмам для 7–12 лет.
+  - Релевантность: **9/10** — работает непосредственно с жанром псалмов и поклонением, часть уроков тематически сгруппирована.
+- [Truth78 — My Purpose Will Stand](https://truth78.org/products/my-purpose-will-stand) — курс о Божьем суверенитете в истории.
+  - Релевантность: **9/10** — последовательно подчёркивает суверенитет и ответственность, но не книга-за-книгой.
+- [Truth78 — God's Design for Sex](https://truth78.org/products/gods-design-for-sex) — возрастной курс о библейском понимании тела и пола.
+  - Релевантность: **8/10** — библейски и практически, узкая тематическая область.
+- [Children Desiring God — Curriculum](https://www.childrendesiringgod.org/curriculum) — библиотека реформатских уроков и пособий.
+  - Релевантность: **10/10** — сильная доктринальная база и миссионный акцент, материалы часто требуют покупки.
+- [Children Desiring God — ABC Bible Memory](https://www.childrendesiringgod.org/curriculum/abc-bible-memory) — программа запоминания стихов для дошкольников.
+  - Релевантность: **8/10** — отличная память и катехизация, не заменяет экзегетический урок.
+- [Children Desiring God — Faithful to the End](https://www.childrendesiringgod.org/curriculum/faithful-to-the-end) — уроки по Евангелию от Марка.
+  - Релевантность: **10/10** — книжное последовательное изучение текста, объём может быть велик для младших.
+- [Children Desiring God — He Has Spoken](https://www.childrendesiringgod.org/curriculum/he-has-spoken) — курс о богодухновенности и авторитете Писания.
+  - Релевантность: **9/10** — полезен для библейской герменевтики, тематический характер ограничивает охват.
+- [Children Desiring God — Jesus, Keep Me Near the Cross](https://www.childrendesiringgod.org/curriculum/jesus-keep-me-near-the-cross) — страстная неделя и крест Христов для детей.
+  - Релевантность: **9/10** — евангельски насыщен, но охватывает короткий сезон.
+- [Great Commission Publications — Sunday School](https://gcp.org/sunday-school) — пресвитерианская линейка курсов по Библии.
+  - Релевантность: **10/10** — реформатская последовательность и планы для разных возрастов, часть материалов платная.
+- [GCP — Show Me Jesus curriculum](https://gcp.org/show-me-jesus) — христоцентричная программа от Бытия до Откровения.
+  - Релевантность: **10/10** — хорошо выстроена каноническая линия, мало свободных образцов уроков.
+- [GCP — Kids Bible Curriculum samples](https://gcp.org/resources) — бесплатные образцы уроков и занятий.
+  - Релевантность: **9/10** — можно сразу адаптировать, но это фрагменты полной программы.
+- [The Gospel Story Curriculum](https://www.thegospelstory.com/curriculum) — курс по библейской истории для воскресной школы.
+  - Релевантность: **9/10** — последовательно показывает единую историю искупления, конфессионально шире реформатской.
+- [One Story Ministries — God's Story](https://onestoryministries.org/gods-story) — учебник и уроки по всей Библии.
+  - Релевантность: **9/10** — книжно-последовательный охват канона, коммерческий комплект.
+- [One Story Ministries — Investigating God's Word](https://onestoryministries.org/investigating-gods-word) — экзегетические уроки для детей 8–12 лет.
+  - Релевантность: **9/10** — сильное наблюдение текста и вопросы, меньше явных реформатских формулировок.
+- [Bible Study Fellowship — Children’s Program](https://www.bsfinternational.org/children) — занятия по текущему библейскому исследованию BSF.
+  - Релевантность: **8/10** — систематическое изучение книг и хорошие рабочие листы, межконфессиональная рамка.
+- [BibleProject Classroom — Bible studies](https://classroom.bibleproject.com/) — бесплатные видео и планы по книгам Библии.
+  - Релевантность: **7/10** — великолепные визуальные обзоры канона, но не реформатская воскресная школа и рассчитано на старших.
+- [Ligonier — Kids Bible Lessons](https://kids.ligonier.org/) — рассказы, видео и задания по библейским доктринам.
+  - Релевантность: **9/10** — реформатская доктринальная точность, уроки не всегда идут последовательно по книгам.
+- [Ligonier — Big Questions from Little People](https://www.ligonier.org/learn/series/big-questions-from-little-people) — ответы детям на богословские вопросы.
+  - Релевантность: **8/10** — ясные ответы с Писанием, это справочник, а не полный курс.
+- [Reformed Theological Seminary — RTS Kids](https://rts.edu/resources/rts-kids/) — детские библейские материалы и катехизация.
+  - Релевантность: **8/10** — реформатское содержание и бесплатные ресурсы, объём нерегулярен.
+- [New City Catechism for Kids](https://www.thegospelcoalition.org/new-city-catechism/) — 52 вопроса и ответа с детскими формулировками.
+  - Релевантность: **9/10** — качественная реформатская катехизация, не заменяет урок по конкретному отрывку.
+- [Desiring God — Kids resources](https://www.desiringgod.org/kids) — рассказы, статьи и материалы Джона Пайпера для детей.
+  - Релевантность: **8/10** — сильная благодатная теология, формат разрозненный.
+- [Desiring God — Fighter Verses for Kids](https://fighterverses.com/) — программа заучивания библейских стихов.
+  - Релевантность: **8/10** — помогает систематически знать Писание, но требует отдельного объяснения контекста.
+- [The Village Church — Gospel Project for Kids](https://www.gospelproject.com/kids/) — curriculum, прослеживающий Евангелие через всю Библию.
+  - Релевантность: **8/10** — каноническая христоцентричность и сильная методика, богословски шире реформатского спектра.
+- [LifeWay — Explore the Bible Kids](https://www.lifeway.com/en/shop/bible-studies/explore-the-bible/kids) — последовательные квартальные исследования книг Библии.
+  - Релевантность: **7/10** — удобная структура и текстовые вопросы, евангельско-баптистская, не строго реформатская.
+- [LifeWay — Bible Studies for Life Kids](https://www.lifeway.com/en/shop/bible-studies/bible-studies-for-life/kids) — тематико-текстовые планы для детей.
+  - Релевантность: **7/10** — много практических активностей, меньше последовательной экзегезы.
+- [Answers in Genesis — Kids Sunday School](https://answersingenesis.org/kids/sunday-school/) — уроки с акцентом на историчность Бытия.
+  - Релевантность: **7/10** — много наглядности и библейского текста, молодой-земли акцент может не совпадать с церковной позицией.
+- [Answers in Genesis — Kids Answers Bible studies](https://answersingenesis.org/kids/bible/) — короткие объяснения библейских вопросов детям.
+  - Релевантность: **6/10** — доступно и текстово, часто полемично по вопросам творения.
+- [Bible for Kids — Free lessons](https://www.bibleforkids.org/) — бесплатные уроки и задания по библейским историям.
+  - Релевантность: **6/10** — удобны для начального возраста, богословие общее евангельское.
+- [Ministry-to-Children — Bible lessons](https://ministry-to-children.com/bible-lessons/) — большая библиотека бесплатных уроков по книгам и темам.
+  - Релевантность: **6/10** — огромный выбор и печатные задания, качество и богословская точность неоднородны.
+- [Sunday School Works — Bible lessons](https://sundayschool.works/lessons/) — планы уроков и игры для детей.
+  - Релевантность: **5/10** — практично и бесплатно, часто морализаторски и без реформатской глубины.
+- [Mission Bible Class](https://missionbibleclass.org/) — последовательные бесплатные уроки по библейским рассказам.
+  - Релевантность: **6/10** — подробные сценарии и картинки, межконфессиональность и упрощение текста.
+- [Calvary Curriculum — Old Testament](https://calvarycurriculum.com/old-testament/) — рабочие листы и раскраски по Ветхому Завету.
+  - Релевантность: **5/10** — большой охват и готовые PDF, богословие типично общепротестантское.
+- [Calvary Curriculum — New Testament](https://calvarycurriculum.com/new-testament/) — рабочие листы по Новому Завету.
+  - Релевантность: **5/10** — удобно для самостоятельной работы, мало контекстного объяснения.
+- [The Resourceful Mama — Bible lessons](https://www.theresourcefulmama.com/bible-activities-for-kids/) — поделки и задания к библейским историям.
+  - Релевантность: **4/10** — хорошие идеи для рукоделия, духовное содержание поверхностно.
+- [Trueway Kids](https://truewaykids.com/) — бесплатные еженедельные уроки с PDF для 3–7 лет.
+  - Релевантность: **6/10** — последовательный календарь и готовые материалы, богословие общеевангельское.
+- [Free Sunday School Curriculum — Awana](https://www.awana.org/curriculum/) — программы запоминания и уроков для клубов детей.
+  - Релевантность: **6/10** — сильная дисциплина Писания и возрастная подача, не конфессионально реформатская.
+- [Child Evangelism Fellowship — 5-Day Club](https://www.cefonline.com/ministries/5-day-club/) — евангелизационные уроки и библейские истории для детей.
+  - Релевантность: **6/10** — ясное Евангелие и миссионная направленность, меньше последовательного изучения книг.
+- [CEF — Wonder World curriculum](https://www.cefonline.com/resources/wonder-world/) — серия уроков для младших детей.
+  - Релевантность: **6/10** — понятная структура и песни, общий евангельский богословский профиль.
+- [Rooted in Scripture — Bible curriculum](https://rootedinscripture.com/) — домашнее и церковное изучение Библии для семей.
+  - Релевантность: **7/10** — ставит Писание в центр и даёт вопросы, не полностью реформатское.
+- [The Biggest Story Curriculum](https://www.thebiggeststory.com/curriculum) — курс по искупительной истории от Crossway.
+  - Релевантность: **9/10** — сильная христоцентричная каноническая перспектива, коммерческий и обзорный формат.
+- [The Biggest Story Bible](https://www.crossway.org/books/the-biggest-story-hcj/) — иллюстрированная книга библейской истории для детей.
+  - Релевантность: **8/10** — хорошо показывает единство Писания, неизбежно сокращает детали текста. Anna’s Archive: **Нет**.
+- [The Garden, the Curtain and the Cross](https://www.thegoodbook.com/the-garden-the-curtain-and-the-cross) — книга и уроки о храме и искуплении.
+  - Релевантность: **8/10** — ясная линия к Христу для дошкольников, не полный библейский курс. Anna’s Archive: **Нет**.
+- [God’s Big Picture](https://www.thegoodbook.com/gods-big-picture) — книга Вона Робертса о единой истории Библии.
+  - Релевантность: **9/10** — полезна учителю для канонической рамки, написана не как детский урок. Anna’s Archive: **Нет**.
+- [Long Story Short](https://www.thegoodbook.com/long-story-short) — семейные уроки по Ветхому Завету.
+  - Релевантность: **9/10** — последовательно читает Ветхий Завет и ведёт к Евангелию, платное издание. Anna’s Archive: **Нет**.
+- [Old Story New](https://www.thegoodbook.com/old-story-new) — семейные уроки по Новому Завету.
+  - Релевантность: **9/10** — удобный последовательный план по НЗ, не охватывает Ветхий Завет. Anna’s Archive: **Нет**.
+- [The Ology](https://www.crossway.org/books/the-ology-hcj/) — детское введение в христианское богословие.
+  - Релевантность: **8/10** — помогает объяснять доктрины детям, тематический, а не текстовый курс. Anna’s Archive: **Нет**.
+- [The Biggest Story: Bible Storybook](https://www.crossway.org/books/the-biggest-story-bible-storybook-hcj/) — иллюстрированный сборник библейских историй.
+  - Релевантность: **8/10** — христоцентричное повествование и хороший язык, требует чтения самого текста Библии. Anna’s Archive: **Нет**.
+- [The Jesus Storybook Bible resources](https://www.jesusstorybookbible.com/resources/) — дополнительные материалы к детской Библии Салли Ллойд-Джонс.
+  - Релевантность: **7/10** — ярко показывает благодать и Христа, свободная пересказная форма иногда сглаживает контекст. Anna’s Archive: **Нет**.
+- [The Beginner’s Gospel Story Bible](https://www.thegoodbook.com/the-beginners-gospel-story-bible) — 52 истории для дошкольников.
+  - Релевантность: **7/10** — хорошо для вводного возраста и семейного чтения, это пересказ, а не экзегетика. Anna’s Archive: **Нет**.
+- [Eerdmans Kids Bible resources](https://eerdmans.com/pages/kids) — детские книги и пособия по библейским темам.
+  - Релевантность: **6/10** — качественная редактура и разнообразие, богословский профиль не единообразен. Anna’s Archive: **Нет**.
