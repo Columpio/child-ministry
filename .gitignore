@@ -9,3 +9,4 @@ vk_dump/
 # служебное
 .pi/
 .pi-subagents/
+.idea
