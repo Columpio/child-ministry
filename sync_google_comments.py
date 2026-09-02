@@ -1,16 +1,19 @@
-"""Pull new comments from Google Docs into local Markdown lessons.
+"""Synchronize local Markdown lessons with Google Docs.
 
-The script never changes document text in Google Drive. It only reads comments,
-adds them to the matching local ``INDEX.md`` as an HTML comment block, and
-resolves the remote comment after the local file has been written successfully.
+By default, the script pushes local lessons to Google Drive. The ``pull``
+command reads new comments, adds them to the matching local ``INDEX.md`` as an
+HTML comment block, and resolves each remote comment after the local file has
+been written successfully.
 
 Install dependencies::
 
-    pip install -r requirements-google-sync.txt
+    pip install -r requirements.txt
 
 Run::
 
+    python sync_google_comments.py          # push (default)
     python sync_google_comments.py pull
+    python sync_google_comments.py push
 
 The first run opens a browser for OAuth consent and stores a refresh token in
 the path configured by ``GOOGLE_TOKEN_FILE``.
@@ -32,6 +35,7 @@ from pathlib import Path
 from typing import Any
 
 from google.auth.transport.requests import Request
+from google.auth.exceptions import RefreshError
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
@@ -64,8 +68,20 @@ def oauth_credentials() -> Credentials:
     if creds and creds.valid:
         return creds
     if creds and creds.expired and creds.refresh_token:
-        creds.refresh(Request())
-    else:
+        try:
+            creds.refresh(Request())
+        except RefreshError as exc:
+            # A revoked/expired refresh token or deleted OAuth client cannot
+            # be repaired by retrying; use the interactive OAuth flow instead.
+            error_text = str(exc)
+            if "invalid_grant" not in error_text and "deleted_client" not in error_text:
+                raise
+            print(
+                "Сохранённый Google OAuth-токен или клиент недействителен; требуется повторная авторизация.",
+                file=sys.stderr,
+            )
+            creds = None
+    if creds is None:
         flow = InstalledAppFlow.from_client_secrets_file(str(client_secret), SCOPES)
         try:
             creds = flow.run_local_server(port=0)
@@ -187,7 +203,13 @@ def comment_parts(comment: dict[str, Any]) -> tuple[str, str, str]:
 def insert_comment(markdown: str, author: str, quote: str, content: str) -> str:
     block = f"<!--\n{author}\n> {quote.replace(chr(10), chr(10) + '> ')}\n\n{content}\n-->"
     if quote:
-        position = markdown.find(quote)
+        # Do not match quoted text inside a previously inserted HTML comment;
+        # otherwise a quote such as ``.`` nests new blocks and corrupts the
+        # Markdown structure. Keep offsets unchanged while masking comments.
+        searchable = re.sub(
+            r"<!--.*?-->", lambda match: " " * len(match.group(0)), markdown, flags=re.DOTALL
+        )
+        position = searchable.find(quote)
         if position >= 0:
             line_end = markdown.find("\n", position + len(quote))
             if line_end < 0:
@@ -199,7 +221,10 @@ def insert_comment(markdown: str, author: str, quote: str, content: str) -> str:
 
 def local_path(local_root: Path, relative_doc_path: str) -> Path:
     parts = Path(relative_doc_path).parts
-    folder = local_root.joinpath(*parts[:-1], Path(parts[-1]).stem)
+    # Google Docs are named after the lesson directory (for example,
+    # ``01. Сотворение``), not after a filename with an extension. Using
+    # ``Path.stem`` would incorrectly turn that name into just ``01``.
+    folder = local_root.joinpath(*parts[:-1], parts[-1])
     return folder / "INDEX.md"
 
 
@@ -233,8 +258,11 @@ def pull() -> int:
                 changed += 1
         destination.write_text(markdown, encoding="utf-8")
         for comment in new_comments:
-            service.comments().update(
-                fileId=file_info["id"], commentId=comment["id"], body={"resolved": True}
+            service.replies().create(
+                fileId=file_info["id"],
+                commentId=comment["id"],
+                body={"action": "resolve"},
+                fields="id,action",
             ).execute()
             resolved += 1
 
@@ -352,7 +380,13 @@ def push(clean: bool = False) -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["pull", "push"])
+    parser.add_argument(
+        "command",
+        choices=["pull", "push"],
+        nargs="?",
+        default="push",
+        help="Sync direction (default: push)",
+    )
     parser.add_argument("--clean", action="store_true", help="Delete all existing items in the Drive root before push")
     args = parser.parse_args()
     return pull() if args.command == "pull" else push(clean=args.clean)
