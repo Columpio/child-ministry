@@ -1,0 +1,1 @@
+{"scripts":{"generate":"node scripts/generate-data.mjs","dev":"npm run generate && vite","build":"npm run generate && vite build","preview":"vite preview"},"dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","typescript":"latest","react":"latest","react-dom":"latest","lucide-react":"latest"},"devDependencies":{}}
