@@ -290,8 +290,6 @@ def update_questions_json(lesson_dir: Path, presentation_url: str | None = None,
     video_urls=video_urls or {}
 
 
-    source=lesson_dir / "QUESTIONS.md"
-    if not source.exists(): return
     data=parse_questions_markdown(source.read_text(encoding="utf-8"))
     old=questions_json_path(lesson_dir)
     if old.exists():
@@ -386,8 +384,8 @@ def pull() -> int:
     service = build("drive", "v3", credentials=credentials)
 
     slides_service = build('slides', 'v1', credentials=credentials)
-    for source in local_root.rglob('QUESTIONS.md'):
-        sync_lesson_media(service, slides_service, root_folder_id, local_root, source.parent)
+    for directory in local_root.rglob('QUESTIONS.json'):
+        sync_lesson_media(service, slides_service, root_folder_id, local_root, directory.parent)
     changed = 0
     resolved = 0
     for file_info, relative in list_google_docs(service, root_folder_id):
@@ -905,8 +903,8 @@ def push(clean: bool = False) -> int:
                 docs += 1
     if slides_service is None:
         slides_service = build('slides', 'v1', credentials=credentials)
-    for source in local_root.rglob('QUESTIONS.md'):
-        sync_lesson_media(service, slides_service, root_folder_id, local_root, source.parent)
+    for directory in local_root.rglob('QUESTIONS.json'):
+        sync_lesson_media(service, slides_service, root_folder_id, local_root, directory.parent)
     print(f"Pushed Google Docs with embedded assets: {docs}")
     print(f"Pushed Google Slides presentations: {presentations}")
     return 0
