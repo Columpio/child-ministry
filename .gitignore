@@ -40,8 +40,18 @@ reference-browser.png
 # Случайные дубликаты и временные ассеты
 site/site/
 site/assets-home-background.png
-site/public/home-background.png
 site/dist/home-background.png
+site/site/assets-home-background.png
+site/site/home-background.png
+site/site/home-design-reference.jpg
+site/site/
+
+# The deployed landing illustration is a source asset and must remain tracked.
+!site/public/home-background.png
+!site/public/home-design-reference.jpg
+
+# generated build output remains ignored
+site/dist/
 *.tmp
 *.bak
 *.log
