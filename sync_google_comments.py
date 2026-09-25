@@ -288,22 +288,26 @@ def find_drive_lesson_folder(service: Any, root_id: str, course: str, lesson: st
 
 def update_questions_json(lesson_dir: Path, presentation_url: str | None = None, video_urls: dict[int,str] | None = None) -> None:
     video_urls=video_urls or {}
-
-
-    data=parse_questions_markdown(source.read_text(encoding="utf-8"))
+    # QUESTIONS.md used to be the source for this file, but it was removed.
+    # Keep the questions and answers from the existing JSON and only refresh
+    # media metadata discovered in Google Drive.
     old=questions_json_path(lesson_dir)
-    if old.exists():
-        try:
-            previous=json.loads(old.read_text(encoding="utf-8"))
-            for slide in data["slides"]:
-                prior=next((x for x in previous.get("slides",[]) if x.get("number")==slide["number"]),{})
-                slide["presentation_url"]=presentation_url or prior.get("presentation_url")
-                slide["video_url"]=video_urls.get(slide["number"], prior.get("video_url"))
-        except json.JSONDecodeError: pass
+    if not old.exists():
+        return
+    try:
+        data=json.loads(old.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return
+    if not isinstance(data, dict) or not isinstance(data.get("slides"), list):
+        return
     for slide in data["slides"]:
-        if presentation_url: slide["presentation_url"]=presentation_url
-        if slide["number"] in video_urls: slide["video_url"]=video_urls[slide["number"]]
-    data["title"]=source.read_text(encoding="utf-8").splitlines()[0].lstrip("# ")
+        if not isinstance(slide, dict):
+            continue
+        number = slide.get("number")
+        if presentation_url:
+            slide["presentation_url"] = presentation_url
+        if number in video_urls:
+            slide["video_url"] = video_urls[number]
     old.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 
