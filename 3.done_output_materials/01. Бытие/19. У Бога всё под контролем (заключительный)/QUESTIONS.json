@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "title": "Вопросы по уроку «У Бога всё под контролем (заключительный)»",
+  "slides": [
+    {
+      "number": 1,
+      "title": "Голод в земле",
+      "questions": [
+        {
+          "prompt": "Почему братья пришли к Иосифу?",
+          "options": [
+            {
+              "text": "Они хотели стать царями",
+              "correct": false
+            },
+            {
+              "text": "Их позвал фараон",
+              "correct": false
+            },
+            {
+              "text": "Они искали Ревекку",
+              "correct": false
+            },
+            {
+              "text": "В земле был голод, и им нужно было зерно",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/edit#slide=id.sync_418bd9247ed8_1_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/embed?start=false&loop=false&slide=id.sync_418bd9247ed8_1_slide"
+    },
+    {
+      "number": 2,
+      "title": "Братья перед Иосифом",
+      "questions": [
+        {
+          "prompt": "Кого Иосиф потребовал привести в Египет?",
+          "options": [
+            {
+              "text": "Исава",
+              "correct": false
+            },
+            {
+              "text": "Лавана",
+              "correct": false
+            },
+            {
+              "text": "Вениамина",
+              "correct": true
+            },
+            {
+              "text": "Моисея",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/edit#slide=id.sync_a58659f32cee_2_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/embed?start=false&loop=false&slide=id.sync_a58659f32cee_2_slide"
+    },
+    {
+      "number": 3,
+      "title": "Вениамин и жертва",
+      "questions": [
+        {
+          "prompt": "Что предложил Иуда вместо Вениамина?",
+          "options": [
+            {
+              "text": "Уйти домой",
+              "correct": false
+            },
+            {
+              "text": "Самому стать рабом",
+              "correct": true
+            },
+            {
+              "text": "Забрать зерно",
+              "correct": false
+            },
+            {
+              "text": "Стать царём",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/edit#slide=id.sync_e28e86632a37_3_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/embed?start=false&loop=false&slide=id.sync_e28e86632a37_3_slide"
+    },
+    {
+      "number": 4,
+      "title": "Иосиф открывается",
+      "questions": [
+        {
+          "prompt": "Что Иосиф сделал после слов Иуды о Вениамине?",
+          "options": [
+            {
+              "text": "Заплакал и открыл братьям, кто он",
+              "correct": true
+            },
+            {
+              "text": "Он хотел отомстить",
+              "correct": false
+            },
+            {
+              "text": "Его заставил фараон",
+              "correct": false
+            },
+            {
+              "text": "Он забыл прошлое",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/edit#slide=id.sync_bf89cfa28e92_4_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/embed?start=false&loop=false&slide=id.sync_bf89cfa28e92_4_slide"
+    },
+    {
+      "number": 5,
+      "title": "Бог обратил зло в добро",
+      "questions": [
+        {
+          "prompt": "Как Бог обратил зло, сделанное Иосифу?",
+          "options": [
+            {
+              "text": "Сделал зло добрым само по себе",
+              "correct": false
+            },
+            {
+              "text": "Спрятал последствия",
+              "correct": false
+            },
+            {
+              "text": "Наказал всех голодом",
+              "correct": false
+            },
+            {
+              "text": "Использовал его для спасения многих от голода",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/edit#slide=id.sync_e1cc0e2aeaa8_5_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/embed?start=false&loop=false&slide=id.sync_e1cc0e2aeaa8_5_slide"
+    },
+    {
+      "number": 6,
+      "title": "Прощение Иосифа",
+      "questions": [
+        {
+          "prompt": "Как Иосиф простил братьев?",
+          "options": [
+            {
+              "text": "Он потребовал их смерти",
+              "correct": false
+            },
+            {
+              "text": "Он отказался говорить",
+              "correct": false
+            },
+            {
+              "text": "Он не мстил, а принял их и заботился о семье",
+              "correct": true
+            },
+            {
+              "text": "Он продал их",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/edit#slide=id.sync_dded8c8d3c8f_6_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/embed?start=false&loop=false&slide=id.sync_dded8c8d3c8f_6_slide"
+    },
+    {
+      "number": 7,
+      "title": "Иосиф указывает на Иисуса",
+      "questions": [
+        {
+          "prompt": "Для 10–12 лет: Что означает название урока «У Бога всё под контролем»?",
+          "options": [
+            {
+              "text": "Люди не отвечают за зло",
+              "correct": false
+            },
+            {
+              "text": "Бог исполняет Свой замысел, несмотря на зло людей",
+              "correct": true
+            },
+            {
+              "text": "Ничего плохого не случается",
+              "correct": false
+            },
+            {
+              "text": "Можно делать всё что угодно",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/edit#slide=id.sync_39e82b5a8006_7_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/embed?start=false&loop=false&slide=id.sync_39e82b5a8006_7_slide"
+    },
+    {
+      "number": 8,
+      "title": "Главная истина",
+      "questions": [
+        {
+          "prompt": "Для 10–12 лет: На Кого помогает взглянуть история Иосифа?",
+          "options": [
+            {
+              "text": "На Иисуса, Который спасает и примиряет виновных",
+              "correct": true
+            },
+            {
+              "text": "Фараону",
+              "correct": false
+            },
+            {
+              "text": "Иакову как спасителю",
+              "correct": false
+            },
+            {
+              "text": "Ангелам",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/edit#slide=id.sync_0c5a844b74ba_8_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1uq-h-eFlNl8xHqo14ehlU-VtDL8Hj1fudjTHw5agfWE/embed?start=false&loop=false&slide=id.sync_0c5a844b74ba_8_slide"
+    }
+  ]
+}

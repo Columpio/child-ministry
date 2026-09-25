@@ -765,6 +765,43 @@ def move_presentation_to_folder(drive_service: Any, presentation_id: str, parent
     drive_service.files().update(**kwargs).execute()
 
 
+def sync_image_source_notes(
+    slides_service: Any,
+    presentation_id: str,
+    image_sources: list[dict[str, str] | None],
+) -> None:
+    """Keep image attribution with the native slide, outside lesson copy."""
+    if not any(image_sources):
+        return
+    pages = slides_service.presentations().get(
+        presentationId=presentation_id,
+        fields="slides(slideProperties(notesPage(notesProperties(speakerNotesObjectId))))",
+    ).execute().get("slides", [])
+    if len(pages) != len(image_sources):
+        raise ValueError("Image attribution count does not match the presentation")
+    requests: list[dict[str, Any]] = []
+    for page, source in zip(pages, image_sources):
+        if not source:
+            continue
+        notes_id = page["slideProperties"]["notesPage"]["notesProperties"]["speakerNotesObjectId"]
+        lines = ["[Sources]"]
+        for key, label in (
+            ("author", "Image author"),
+            ("source_url", "Image source"),
+            ("license", "Image license"),
+            ("license_url", "License URL"),
+            ("changes", "Image modifications"),
+        ):
+            if source.get(key):
+                lines.append(f"{label}: {source[key]}")
+        lines.append("[/Sources]")
+        requests.append({"insertText": {"objectId": notes_id, "insertionIndex": 0, "text": "\n".join(lines) + "\n"}})
+    if requests:
+        slides_service.presentations().batchUpdate(
+            presentationId=presentation_id, body={"requests": requests}
+        ).execute()
+
+
 def sync_presentation(
     slides_service: Any,
     drive_service: Any,
@@ -774,6 +811,9 @@ def sync_presentation(
 ) -> str:
     """Create or update a native Google Slides deck from ``SLIDES.md``."""
     parsed_slides = parse_slides_markdown(source.read_text(encoding="utf-8"), source.parent)
+    sources_path = source.parent.parent / "IMAGE_SOURCES.json"
+    sources = json.loads(sources_path.read_text(encoding="utf-8")) if sources_path.is_file() else {}
+    image_sources = [sources.get(image.name) if image else None for _, _, image in parsed_slides]
     slides: list[tuple[str, str, dict[str, Any] | None]] = []
     assets_folder_id: str | None = None
     for title, markdown_body, image_path in parsed_slides:
@@ -793,6 +833,7 @@ def sync_presentation(
         presentation_id = created["presentationId"]
         move_presentation_to_folder(drive_service, presentation_id, parent_id)
     rebuild_presentation(slides_service, presentation_id, slides)
+    sync_image_source_notes(slides_service, presentation_id, image_sources)
     return google_presentation_url(presentation_id)
 
 
@@ -909,6 +950,10 @@ def push(clean: bool = False) -> int:
         slides_service = build('slides', 'v1', credentials=credentials)
     for directory in local_root.rglob('QUESTIONS.json'):
         sync_lesson_media(service, slides_service, root_folder_id, local_root, directory.parent)
+        parent_id = root_folder_id
+        for component in directory.parent.relative_to(local_root).parts:
+            parent_id = ensure_folder(service, parent_id, component)
+        upload_file(service, parent_id, directory, 'QUESTIONS.json', 'application/json')
     print(f"Pushed Google Docs with embedded assets: {docs}")
     print(f"Pushed Google Slides presentations: {presentations}")
     return 0

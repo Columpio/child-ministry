@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "title": "Вопросы по уроку «Испытание веры»",
+  "slides": [
+    {
+      "number": 1,
+      "title": "Бог испытывает Авраама",
+      "questions": [
+        {
+          "prompt": "Почему Бог испытывал Авраама?",
+          "options": [
+            {
+              "text": "Чтобы наказать его за грех",
+              "correct": false
+            },
+            {
+              "text": "Чтобы узнать, где он живёт",
+              "correct": false
+            },
+            {
+              "text": "Чтобы сделать его богатым",
+              "correct": false
+            },
+            {
+              "text": "Чтобы проверить его доверие и послушание",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/edit#slide=id.sync_5cc558316667_1_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/embed?start=false&loop=false&slide=id.sync_5cc558316667_1_slide"
+    },
+    {
+      "number": 2,
+      "title": "Авраам идёт",
+      "questions": [
+        {
+          "prompt": "Что сделал Авраам, услышав повеление Бога?",
+          "options": [
+            {
+              "text": "Спрятался",
+              "correct": false
+            },
+            {
+              "text": "Позвал царя",
+              "correct": false
+            },
+            {
+              "text": "Встал рано и пошёл с Исааком",
+              "correct": true
+            },
+            {
+              "text": "Забыл повеление",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/edit#slide=id.sync_57fe91175562_2_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/embed?start=false&loop=false&slide=id.sync_57fe91175562_2_slide"
+    },
+    {
+      "number": 3,
+      "title": "Вопрос Исаака",
+      "questions": [
+        {
+          "prompt": "О чём Исаак спросил отца в дороге?",
+          "options": [
+            {
+              "text": "Куда мы идём?",
+              "correct": false
+            },
+            {
+              "text": "Где агнец для всесожжения?",
+              "correct": true
+            },
+            {
+              "text": "Почему мы молчим?",
+              "correct": false
+            },
+            {
+              "text": "Кто построил жертвенник?",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/edit#slide=id.sync_3f0d6d84dabc_3_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/embed?start=false&loop=false&slide=id.sync_3f0d6d84dabc_3_slide"
+    },
+    {
+      "number": 4,
+      "title": "Бог усмотрит агнца",
+      "questions": [
+        {
+          "prompt": "Что слова «Бог усмотрит Себе агнца» говорят о вере Авраама?",
+          "options": [
+            {
+              "text": "Он доверял Божьему обеспечению",
+              "correct": true
+            },
+            {
+              "text": "Он не знал Бога",
+              "correct": false
+            },
+            {
+              "text": "Он хотел отказаться",
+              "correct": false
+            },
+            {
+              "text": "Он надеялся на случай",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/edit#slide=id.sync_81f00b82368f_4_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/embed?start=false&loop=false&slide=id.sync_81f00b82368f_4_slide"
+    },
+    {
+      "number": 5,
+      "title": "Овен вместо Исаака",
+      "questions": [
+        {
+          "prompt": "Кого Бог дал вместо Исаака?",
+          "options": [
+            {
+              "text": "Телёнка",
+              "correct": false
+            },
+            {
+              "text": "Голубя",
+              "correct": false
+            },
+            {
+              "text": "Другого человека",
+              "correct": false
+            },
+            {
+              "text": "Овна, запутавшегося рогами",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/edit#slide=id.sync_505a198df752_5_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/embed?start=false&loop=false&slide=id.sync_505a198df752_5_slide"
+    },
+    {
+      "number": 6,
+      "title": "Картина Евангелия",
+      "questions": [
+        {
+          "prompt": "Что произошло с овном, которого увидел Авраам?",
+          "options": [
+            {
+              "text": "Дети всегда должны страдать",
+              "correct": false
+            },
+            {
+              "text": "Жертва не нужна",
+              "correct": false
+            },
+            {
+              "text": "Овен был принесён в жертву вместо Исаака",
+              "correct": true
+            },
+            {
+              "text": "Авраам ошибся",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/edit#slide=id.sync_9b2279472579_6_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/embed?start=false&loop=false&slide=id.sync_9b2279472579_6_slide"
+    },
+    {
+      "number": 7,
+      "title": "Испытанная вера",
+      "questions": [
+        {
+          "prompt": "Для 10–12 лет: Что значит вера Авраама в этом рассказе?",
+          "options": [
+            {
+              "text": "Никогда не задавать вопросов",
+              "correct": false
+            },
+            {
+              "text": "Доверять Богу и исполнять Его слово",
+              "correct": true
+            },
+            {
+              "text": "Получать всё желаемое",
+              "correct": false
+            },
+            {
+              "text": "Быть сильнее других",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/edit#slide=id.sync_5a3ccf2cd8d4_7_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/embed?start=false&loop=false&slide=id.sync_5a3ccf2cd8d4_7_slide"
+    },
+    {
+      "number": 8,
+      "title": "Главная истина",
+      "questions": [
+        {
+          "prompt": "Для 10–12 лет: На Кого указывает эта история?",
+          "options": [
+            {
+              "text": "На Иисуса, Божьего Агнца и Спасителя",
+              "correct": true
+            },
+            {
+              "text": "Моисею",
+              "correct": false
+            },
+            {
+              "text": "Соломону",
+              "correct": false
+            },
+            {
+              "text": "Иосифу",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/edit#slide=id.sync_6627a6fdad42_8_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1dtSFYKWlZw9DEsiTFG2W6dmKhU90tikE8lWncizhkB8/embed?start=false&loop=false&slide=id.sync_6627a6fdad42_8_slide"
+    }
+  ]
+}

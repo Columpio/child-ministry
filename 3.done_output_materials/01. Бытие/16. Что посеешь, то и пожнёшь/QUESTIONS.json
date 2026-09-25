@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "title": "Вопросы по уроку «Что посеешь, то и пожнёшь»",
+  "slides": [
+    {
+      "number": 1,
+      "title": "Иаков у Лавана",
+      "questions": [
+        {
+          "prompt": "У кого Иаков работал?",
+          "options": [
+            {
+              "text": "У Лавана",
+              "correct": true
+            },
+            {
+              "text": "У Авраама",
+              "correct": false
+            },
+            {
+              "text": "У фараона",
+              "correct": false
+            },
+            {
+              "text": "У Исава",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/edit#slide=id.sync_f0ebcd74354d_1_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/embed?start=false&loop=false&slide=id.sync_f0ebcd74354d_1_slide"
+    },
+    {
+      "number": 2,
+      "title": "Семь лет труда",
+      "questions": [
+        {
+          "prompt": "Сколько лет Иаков сначала согласился служить за Рахиль?",
+          "options": [
+            {
+              "text": "Один год",
+              "correct": false
+            },
+            {
+              "text": "Двадцать лет",
+              "correct": false
+            },
+            {
+              "text": "Три дня",
+              "correct": false
+            },
+            {
+              "text": "Семь лет",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/edit#slide=id.sync_575192e6efcd_2_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/embed?start=false&loop=false&slide=id.sync_575192e6efcd_2_slide"
+    },
+    {
+      "number": 3,
+      "title": "Обман Лавана",
+      "questions": [
+        {
+          "prompt": "Как Лаван обманул Иакова?",
+          "options": [
+            {
+              "text": "Скрыл его овец",
+              "correct": false
+            },
+            {
+              "text": "Продал его братьям",
+              "correct": false
+            },
+            {
+              "text": "Дал сначала Лию вместо Рахили",
+              "correct": true
+            },
+            {
+              "text": "Забрал его детей",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/edit#slide=id.sync_331af643e974_3_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/embed?start=false&loop=false&slide=id.sync_331af643e974_3_slide"
+    },
+    {
+      "number": 4,
+      "title": "Поступки имеют последствия",
+      "questions": [
+        {
+          "prompt": "Какой принцип виден в истории?",
+          "options": [
+            {
+              "text": "Обман не причиняет вреда",
+              "correct": false
+            },
+            {
+              "text": "Поступки имеют последствия",
+              "correct": true
+            },
+            {
+              "text": "Труд не имеет значения",
+              "correct": false
+            },
+            {
+              "text": "Бог не судит",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/edit#slide=id.sync_e53d6ec0c7fb_4_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/embed?start=false&loop=false&slide=id.sync_e53d6ec0c7fb_4_slide"
+    },
+    {
+      "number": 5,
+      "title": "Бог не оставляет",
+      "questions": [
+        {
+          "prompt": "Оставил ли Бог Иакова среди несправедливости?",
+          "options": [
+            {
+              "text": "Нет, Бог хранил и благословлял его",
+              "correct": true
+            },
+            {
+              "text": "Да, Бог забыл его",
+              "correct": false
+            },
+            {
+              "text": "Да, Иаков спас себя сам",
+              "correct": false
+            },
+            {
+              "text": "Бог наказал его навсегда",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/edit#slide=id.sync_df88fcab8282_5_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/embed?start=false&loop=false&slide=id.sync_df88fcab8282_5_slide"
+    },
+    {
+      "number": 6,
+      "title": "Божья верность и наша ответственность",
+      "questions": [
+        {
+          "prompt": "Что значит «пожинать посеянное»?",
+          "options": [
+            {
+              "text": "Получать случайный подарок",
+              "correct": false
+            },
+            {
+              "text": "Всегда быть богатым",
+              "correct": false
+            },
+            {
+              "text": "Не отвечать за выбор",
+              "correct": false
+            },
+            {
+              "text": "Встречаться с последствиями своих решений",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/edit#slide=id.sync_399f45fd5f02_6_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/embed?start=false&loop=false&slide=id.sync_399f45fd5f02_6_slide"
+    },
+    {
+      "number": 7,
+      "title": "Новая жизнь во Христе",
+      "questions": [
+        {
+          "prompt": "Для 10–12 лет: Как христианин отвечает на несправедливость?",
+          "options": [
+            {
+              "text": "Мстит сразу",
+              "correct": false
+            },
+            {
+              "text": "Обманывает в ответ",
+              "correct": false
+            },
+            {
+              "text": "Доверяет Богу и поступает честно",
+              "correct": true
+            },
+            {
+              "text": "Отказывается от труда",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/edit#slide=id.sync_ebf4c5205e58_7_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/embed?start=false&loop=false&slide=id.sync_ebf4c5205e58_7_slide"
+    },
+    {
+      "number": 8,
+      "title": "Главная истина",
+      "questions": [
+        {
+          "prompt": "Для 10–12 лет: Что даёт новая жизнь во Христе?",
+          "options": [
+            {
+              "text": "Право грешить",
+              "correct": false
+            },
+            {
+              "text": "Прощение и силу жить по Божьей правде",
+              "correct": true
+            },
+            {
+              "text": "Гарантию лёгкой жизни",
+              "correct": false
+            },
+            {
+              "text": "Славу перед людьми",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/edit#slide=id.sync_5cd529fd6614_8_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1jegXMmfFA3PuuqEaprycQu03keZlZpBqJlcnMD0EIO8/embed?start=false&loop=false&slide=id.sync_5cd529fd6614_8_slide"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "title": "Вопросы по уроку «Бог выбирает Иакова»",
+  "slides": [
+    {
+      "number": 1,
+      "title": "Иаков бежит",
+      "questions": [
+        {
+          "prompt": "Почему Иаков бежал из дома?",
+          "options": [
+            {
+              "text": "Он искал работу",
+              "correct": false
+            },
+            {
+              "text": "Его послал Авраам",
+              "correct": false
+            },
+            {
+              "text": "Он заблудился",
+              "correct": false
+            },
+            {
+              "text": "Исав хотел его убить после обмана",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/edit#slide=id.sync_54c8086cb8ef_1_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/embed?start=false&loop=false&slide=id.sync_54c8086cb8ef_1_slide"
+    },
+    {
+      "number": 2,
+      "title": "Сон в пути",
+      "questions": [
+        {
+          "prompt": "Что увидел Иаков во сне?",
+          "options": [
+            {
+              "text": "Корабль",
+              "correct": false
+            },
+            {
+              "text": "Горящий куст",
+              "correct": false
+            },
+            {
+              "text": "Лестницу между землёй и небом",
+              "correct": true
+            },
+            {
+              "text": "Золотой город",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/edit#slide=id.sync_fb0571ecdd74_2_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/embed?start=false&loop=false&slide=id.sync_fb0571ecdd74_2_slide"
+    },
+    {
+      "number": 3,
+      "title": "Бог говорит",
+      "questions": [
+        {
+          "prompt": "Что Бог обещал Иакову?",
+          "options": [
+            {
+              "text": "Сделать его царём Египта",
+              "correct": false
+            },
+            {
+              "text": "Быть с ним, сохранить и привести обратно",
+              "correct": true
+            },
+            {
+              "text": "Дать ему бессмертие",
+              "correct": false
+            },
+            {
+              "text": "Избавить от всякой работы",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/edit#slide=id.sync_714621db96e0_3_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/embed?start=false&loop=false&slide=id.sync_714621db96e0_3_slide"
+    },
+    {
+      "number": 4,
+      "title": "Обещание присутствия",
+      "questions": [
+        {
+          "prompt": "Что значит «Я с тобой» для Иакова?",
+          "options": [
+            {
+              "text": "Бог не оставит его даже в дороге",
+              "correct": true
+            },
+            {
+              "text": "Иаков больше не согрешит",
+              "correct": false
+            },
+            {
+              "text": "Он не будет нуждаться в людях",
+              "correct": false
+            },
+            {
+              "text": "Он станет невидимым",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/edit#slide=id.sync_1e2924fbb3b0_4_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/embed?start=false&loop=false&slide=id.sync_1e2924fbb3b0_4_slide"
+    },
+    {
+      "number": 5,
+      "title": "Лестница указывает на Христа",
+      "questions": [
+        {
+          "prompt": "Кого напоминает лестница, соединяющая небо и землю?",
+          "options": [
+            {
+              "text": "Иакова как спасителя",
+              "correct": false
+            },
+            {
+              "text": "Ангела",
+              "correct": false
+            },
+            {
+              "text": "Моисея",
+              "correct": false
+            },
+            {
+              "text": "Иисуса, через Которого мы приходим к Отцу",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/edit#slide=id.sync_3957b7125be6_5_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/embed?start=false&loop=false&slide=id.sync_3957b7125be6_5_slide"
+    },
+    {
+      "number": 6,
+      "title": "Бог смотрит на сердце",
+      "questions": [
+        {
+          "prompt": "Что показывает Божье обещание Иакову после его обмана?",
+          "options": [
+            {
+              "text": "Только на внешность",
+              "correct": false
+            },
+            {
+              "text": "На богатство",
+              "correct": false
+            },
+            {
+              "text": "Бог проявляет милость, но это не оправдывает обман",
+              "correct": true
+            },
+            {
+              "text": "На мнение толпы",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/edit#slide=id.sync_3e7b85ce4bff_6_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/embed?start=false&loop=false&slide=id.sync_3e7b85ce4bff_6_slide"
+    },
+    {
+      "number": 7,
+      "title": "Ответ Иакова",
+      "questions": [
+        {
+          "prompt": "Для 10–12 лет: Как Иаков ответил на Божье обещание?",
+          "options": [
+            {
+              "text": "Убежал дальше",
+              "correct": false
+            },
+            {
+              "text": "Дал обет и поставил камень как памятник",
+              "correct": true
+            },
+            {
+              "text": "Забыл сон",
+              "correct": false
+            },
+            {
+              "text": "Начал спорить",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/edit#slide=id.sync_ff4fb87c96a2_7_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/embed?start=false&loop=false&slide=id.sync_ff4fb87c96a2_7_slide"
+    },
+    {
+      "number": 8,
+      "title": "Главная истина",
+      "questions": [
+        {
+          "prompt": "Для 10–12 лет: Что можем делать, зная, что Бог рядом?",
+          "options": [
+            {
+              "text": "Доверять Ему и поклоняться",
+              "correct": true
+            },
+            {
+              "text": "Жить без молитвы",
+              "correct": false
+            },
+            {
+              "text": "Хвалиться собой",
+              "correct": false
+            },
+            {
+              "text": "Бояться людей больше Бога",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/edit#slide=id.sync_0300fce9a7e0_8_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1CqhuU61CrlfWw7maY2fGkqRF8nrw5OmlmxaVHcDs2_0/embed?start=false&loop=false&slide=id.sync_0300fce9a7e0_8_slide"
+    }
+  ]
+}

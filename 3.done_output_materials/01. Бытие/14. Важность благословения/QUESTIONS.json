@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "title": "Вопросы по уроку «Важность благословения»",
+  "slides": [
+    {
+      "number": 1,
+      "title": "Благословение Исаака",
+      "questions": [
+        {
+          "prompt": "Кого Исаак хотел благословить?",
+          "options": [
+            {
+              "text": "Иакова",
+              "correct": false
+            },
+            {
+              "text": "Лавана",
+              "correct": false
+            },
+            {
+              "text": "Исава",
+              "correct": true
+            },
+            {
+              "text": "Иосифа",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/edit#slide=id.sync_3baf2d03a138_1_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/embed?start=false&loop=false&slide=id.sync_3baf2d03a138_1_slide"
+    },
+    {
+      "number": 2,
+      "title": "Обман в шатре",
+      "questions": [
+        {
+          "prompt": "Как Иаков получил благословение?",
+          "options": [
+            {
+              "text": "Он честно победил Исава",
+              "correct": false
+            },
+            {
+              "text": "Ревекка помогла ему обмануть отца",
+              "correct": true
+            },
+            {
+              "text": "Его выбрал народ",
+              "correct": false
+            },
+            {
+              "text": "Он купил его",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/edit#slide=id.sync_6fd9cd9f47c1_2_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/embed?start=false&loop=false&slide=id.sync_6fd9cd9f47c1_2_slide"
+    },
+    {
+      "number": 3,
+      "title": "Что было неправильным?",
+      "questions": [
+        {
+          "prompt": "Что было неправильным в поступке Иакова?",
+          "options": [
+            {
+              "text": "Обман и хитрость",
+              "correct": true
+            },
+            {
+              "text": "Желание послушаться Бога",
+              "correct": false
+            },
+            {
+              "text": "Забота о семье",
+              "correct": false
+            },
+            {
+              "text": "Молитва",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/edit#slide=id.sync_d26b05654693_3_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/embed?start=false&loop=false&slide=id.sync_d26b05654693_3_slide"
+    },
+    {
+      "number": 4,
+      "title": "Божий план сильнее ошибок",
+      "questions": [
+        {
+          "prompt": "Что показывает Божий план среди человеческих ошибок?",
+          "options": [
+            {
+              "text": "Грех становится добром",
+              "correct": false
+            },
+            {
+              "text": "Обман всегда разрешён",
+              "correct": false
+            },
+            {
+              "text": "Бог не видит поступков",
+              "correct": false
+            },
+            {
+              "text": "Бог исполняет Своё обещание, но грех остаётся грехом",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/edit#slide=id.sync_c249673d2096_4_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/embed?start=false&loop=false&slide=id.sync_c249673d2096_4_slide"
+    },
+    {
+      "number": 5,
+      "title": "Благословение — не магия",
+      "questions": [
+        {
+          "prompt": "Благословение в истории — это…",
+          "options": [
+            {
+              "text": "Магическое заклинание",
+              "correct": false
+            },
+            {
+              "text": "Просто подарок",
+              "correct": false
+            },
+            {
+              "text": "Передача Божьего обещания и места в Завете",
+              "correct": true
+            },
+            {
+              "text": "Соревнование братьев",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/edit#slide=id.sync_a8bbc9a9ac80_5_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/embed?start=false&loop=false&slide=id.sync_a8bbc9a9ac80_5_slide"
+    },
+    {
+      "number": 6,
+      "title": "Обещанный Потомок",
+      "questions": [
+        {
+          "prompt": "На кого указывает обещанный Потомок?",
+          "options": [
+            {
+              "text": "На Исава",
+              "correct": false
+            },
+            {
+              "text": "На Иисуса Христа",
+              "correct": true
+            },
+            {
+              "text": "На Лавана",
+              "correct": false
+            },
+            {
+              "text": "На фараона",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/edit#slide=id.sync_67561194a3a2_6_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/embed?start=false&loop=false&slide=id.sync_67561194a3a2_6_slide"
+    },
+    {
+      "number": 7,
+      "title": "Передавать благословение",
+      "questions": [
+        {
+          "prompt": "Для 10–12 лет: Как мы можем рассказывать другим о Божьем обещании?",
+          "options": [
+            {
+              "text": "Рассказывать о Божьей верности и об Иисусе, в Котором исполнилось обещание",
+              "correct": true
+            },
+            {
+              "text": "Обещать им богатство",
+              "correct": false
+            },
+            {
+              "text": "Скрывать Библию",
+              "correct": false
+            },
+            {
+              "text": "Хвалить только сильных",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/edit#slide=id.sync_0c02e922bc9a_7_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/embed?start=false&loop=false&slide=id.sync_0c02e922bc9a_7_slide"
+    },
+    {
+      "number": 8,
+      "title": "Главная истина",
+      "questions": [
+        {
+          "prompt": "Для 10–12 лет: Чем Божье благословение отличается от человеческой похвалы?",
+          "options": [
+            {
+              "text": "Оно зависит от внешности",
+              "correct": false
+            },
+            {
+              "text": "Его можно купить",
+              "correct": false
+            },
+            {
+              "text": "Оно длится один день",
+              "correct": false
+            },
+            {
+              "text": "Оно связано с Божьим Заветом и благодатью",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/edit#slide=id.sync_51bdd7da8a9f_8_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1wuo4AetKOEjQ9UG1BW8q-PN_68UXHywaSo-UOFw1jIw/embed?start=false&loop=false&slide=id.sync_51bdd7da8a9f_8_slide"
+    }
+  ]
+}

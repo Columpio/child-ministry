@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "title": "Вопросы по уроку «Временное и вечное»",
+  "slides": [
+    {
+      "number": 1,
+      "title": "Два брата",
+      "questions": [
+        {
+          "prompt": "Кем были Исав и Иаков?",
+          "options": [
+            {
+              "text": "Друзьями Авраама",
+              "correct": false
+            },
+            {
+              "text": "Братьями-близнецами",
+              "correct": true
+            },
+            {
+              "text": "Сыновьями Лавана",
+              "correct": false
+            },
+            {
+              "text": "Царями",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/edit#slide=id.sync_614d524256b7_1_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/embed?start=false&loop=false&slide=id.sync_614d524256b7_1_slide"
+    },
+    {
+      "number": 2,
+      "title": "Исав продаёт первородство",
+      "questions": [
+        {
+          "prompt": "Что попросил Исав у Иакова?",
+          "options": [
+            {
+              "text": "Чечевичную похлёбку",
+              "correct": true
+            },
+            {
+              "text": "Книгу",
+              "correct": false
+            },
+            {
+              "text": "Овцу",
+              "correct": false
+            },
+            {
+              "text": "Землю",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/edit#slide=id.sync_29dc7828d0ca_2_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/embed?start=false&loop=false&slide=id.sync_29dc7828d0ca_2_slide"
+    },
+    {
+      "number": 3,
+      "title": "Что он потерял?",
+      "questions": [
+        {
+          "prompt": "Что Исав отдал за еду?",
+          "options": [
+            {
+              "text": "Свой шатёр",
+              "correct": false
+            },
+            {
+              "text": "Имя",
+              "correct": false
+            },
+            {
+              "text": "Оружие",
+              "correct": false
+            },
+            {
+              "text": "Первородство",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/edit#slide=id.sync_84aa114fdcea_3_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/embed?start=false&loop=false&slide=id.sync_84aa114fdcea_3_slide"
+    },
+    {
+      "number": 4,
+      "title": "Мгновенное желание",
+      "questions": [
+        {
+          "prompt": "Почему поступок Исава был опасен?",
+          "options": [
+            {
+              "text": "Он был голоден",
+              "correct": false
+            },
+            {
+              "text": "Он помог брату",
+              "correct": false
+            },
+            {
+              "text": "Он пренебрёг первородством ради еды",
+              "correct": true
+            },
+            {
+              "text": "Он устал",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/edit#slide=id.sync_351a0b2806b5_4_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/embed?start=false&loop=false&slide=id.sync_351a0b2806b5_4_slide"
+    },
+    {
+      "number": 5,
+      "title": "Временное",
+      "questions": [
+        {
+          "prompt": "Что означает «временное» в уроке?",
+          "options": [
+            {
+              "text": "То, что принадлежит Богу",
+              "correct": false
+            },
+            {
+              "text": "То, что быстро проходит",
+              "correct": true
+            },
+            {
+              "text": "Вечную жизнь",
+              "correct": false
+            },
+            {
+              "text": "Обещание Завета",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/edit#slide=id.sync_d736f904c50d_5_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/embed?start=false&loop=false&slide=id.sync_d736f904c50d_5_slide"
+    },
+    {
+      "number": 6,
+      "title": "Вечное",
+      "questions": [
+        {
+          "prompt": "Что означает «вечное»?",
+          "options": [
+            {
+              "text": "Божьи обещания и жизнь с Богом",
+              "correct": true
+            },
+            {
+              "text": "Любимую еду",
+              "correct": false
+            },
+            {
+              "text": "Богатство",
+              "correct": false
+            },
+            {
+              "text": "Славу людей",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/edit#slide=id.sync_1acadfbff082_6_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/embed?start=false&loop=false&slide=id.sync_1acadfbff082_6_slide"
+    },
+    {
+      "number": 7,
+      "title": "Выбор сердца",
+      "questions": [
+        {
+          "prompt": "Для 10–12 лет: Какой вопрос стоит задать перед выбором?",
+          "options": [
+            {
+              "text": "Кто быстрее?",
+              "correct": false
+            },
+            {
+              "text": "Что хотят друзья?",
+              "correct": false
+            },
+            {
+              "text": "Что вкуснее?",
+              "correct": false
+            },
+            {
+              "text": "Что важнее перед Богом — сейчас или навсегда?",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/edit#slide=id.sync_ede9ad905470_7_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/embed?start=false&loop=false&slide=id.sync_ede9ad905470_7_slide"
+    },
+    {
+      "number": 8,
+      "title": "Главная истина",
+      "questions": [
+        {
+          "prompt": "Для 10–12 лет: Кто даёт настоящую вечную ценность?",
+          "options": [
+            {
+              "text": "Популярность",
+              "correct": false
+            },
+            {
+              "text": "Деньги",
+              "correct": false
+            },
+            {
+              "text": "Иисус Христос и Его спасение",
+              "correct": true
+            },
+            {
+              "text": "Сила",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/edit#slide=id.sync_fd3895b48eea_8_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1BhYwiAVW_gw7ExtfOvKq336DW8rCv3RNmcqvVe3obLg/embed?start=false&loop=false&slide=id.sync_fd3895b48eea_8_slide"
+    }
+  ]
+}

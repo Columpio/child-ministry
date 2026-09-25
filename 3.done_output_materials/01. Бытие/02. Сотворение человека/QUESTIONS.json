@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "title": "Вопросы по уроку «﻿# Кто такой человек?»",
+  "slides": [
+    {
+      "number": 1,
+      "title": "Бог задумал человека",
+      "questions": [
+        {
+          "prompt": "Кто задумал сотворить человека (Быт. 1:26)?",
+          "options": [
+            {
+              "text": "Ангелы",
+              "correct": false
+            },
+            {
+              "text": "Первый человек",
+              "correct": false
+            },
+            {
+              "text": "Земные правители",
+              "correct": false
+            },
+            {
+              "text": "Бог",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/edit#slide=id.sync_6f07523916e6_1_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/embed?start=false&loop=false&slide=id.sync_6f07523916e6_1_slide"
+    },
+    {
+      "number": 2,
+      "title": "Образ Божий",
+      "questions": [
+        {
+          "prompt": "Почему каждый человек достоин уважения?",
+          "options": [
+            {
+              "text": "Он создан по образу Божьему",
+              "correct": true
+            },
+            {
+              "text": "Он никогда не ошибается",
+              "correct": false
+            },
+            {
+              "text": "Он всегда сильнее животных",
+              "correct": false
+            },
+            {
+              "text": "Он заслужил право на жизнь",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/edit#slide=id.sync_c1ec2b14ac62_2_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/embed?start=false&loop=false&slide=id.sync_c1ec2b14ac62_2_slide"
+    },
+    {
+      "number": 3,
+      "title": "Мужчина и женщина",
+      "questions": [
+        {
+          "prompt": "Кто создан по образу Божьему в Быт. 1:27?",
+          "options": [
+            {
+              "text": "Только мужчина",
+              "correct": false
+            },
+            {
+              "text": "Мужчина и женщина",
+              "correct": true
+            },
+            {
+              "text": "Только взрослые",
+              "correct": false
+            },
+            {
+              "text": "Только сильные",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/edit#slide=id.sync_c83f65377595_3_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/embed?start=false&loop=false&slide=id.sync_c83f65377595_3_slide"
+    },
+    {
+      "number": 4,
+      "title": "Бог дал человеку жизнь",
+      "questions": [
+        {
+          "prompt": "Из чего Господь создал человека в Быт. 2:7?",
+          "options": [
+            {
+              "text": "Из дерева",
+              "correct": false
+            },
+            {
+              "text": "Из золота",
+              "correct": false
+            },
+            {
+              "text": "Из праха земного",
+              "correct": true
+            },
+            {
+              "text": "Из воды",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/edit#slide=id.sync_2d13f7076e85_4_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/embed?start=false&loop=false&slide=id.sync_2d13f7076e85_4_slide"
+    },
+    {
+      "number": 5,
+      "title": "Человек получает поручение",
+      "questions": [
+        {
+          "prompt": "Какое поручение получили люди в Быт. 1:28?",
+          "options": [
+            {
+              "text": "Скрыться от Бога",
+              "correct": false
+            },
+            {
+              "text": "Не прикасаться к творению",
+              "correct": false
+            },
+            {
+              "text": "Построить башню",
+              "correct": false
+            },
+            {
+              "text": "Наполнять землю и владычествовать над живыми существами",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/edit#slide=id.sync_97139d5f6e43_5_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/embed?start=false&loop=false&slide=id.sync_97139d5f6e43_5_slide"
+    },
+    {
+      "number": 6,
+      "title": "Бог увидел: хорошо весьма",
+      "questions": [
+        {
+          "prompt": "Как Бог оценил всё сотворённое?",
+          "options": [
+            {
+              "text": "Хорошо весьма",
+              "correct": true
+            },
+            {
+              "text": "Плохо",
+              "correct": false
+            },
+            {
+              "text": "Нужно всё переделать",
+              "correct": false
+            },
+            {
+              "text": "Бесполезно",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/edit#slide=id.sync_5fe318744bbf_6_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/embed?start=false&loop=false&slide=id.sync_5fe318744bbf_6_slide"
+    },
+    {
+      "number": 7,
+      "title": "Жизнь через Сына",
+      "questions": [
+        {
+          "prompt": "Что Ин. 1:3 говорит о Слове, Божьем Сыне?",
+          "options": [
+            {
+              "text": "Он появился после людей",
+              "correct": false
+            },
+            {
+              "text": "Всё начало быть через Него",
+              "correct": true
+            },
+            {
+              "text": "Он создал только звёзды",
+              "correct": false
+            },
+            {
+              "text": "Он сам является творением",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/edit#slide=id.sync_2de29a5d2fac_7_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/embed?start=false&loop=false&slide=id.sync_2de29a5d2fac_7_slide"
+    },
+    {
+      "number": 8,
+      "title": "Что запомнить",
+      "questions": [
+        {
+          "prompt": "Какой поступок соответствует достоинству человека?",
+          "options": [
+            {
+              "text": "Унижать слабого",
+              "correct": false
+            },
+            {
+              "text": "Уважать только отличников",
+              "correct": false
+            },
+            {
+              "text": "Помочь ребёнку, над которым смеются",
+              "correct": true
+            },
+            {
+              "text": "Считать ценными только богатых",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "prompt": "Для 10–12 лет: какой вывод следует из того, что мужчина и женщина созданы по образу Божьему?",
+          "options": [
+            {
+              "text": "Более способные имеют больше достоинства",
+              "correct": false
+            },
+            {
+              "text": "Человек стал равным Творцу",
+              "correct": false
+            },
+            {
+              "text": "Достоинство дано каждому Богом, а не заработано способностями",
+              "correct": true
+            },
+            {
+              "text": "Божий образ есть только у взрослых",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "presentation_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/edit#slide=id.sync_284c4fd6903f_8_slide",
+      "video_url": null,
+      "presentation_embed_url": "https://docs.google.com/presentation/d/1spqprOT3PHL13kUfePjvO7pDX_FLDDHx7M2b0_TKwJc/embed?start=false&loop=false&slide=id.sync_284c4fd6903f_8_slide"
+    }
+  ]
+}
