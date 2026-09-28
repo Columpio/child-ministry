@@ -303,7 +303,7 @@ def update_questions_json(lesson_dir: Path, presentation_url: str | None = None,
     for slide in data["slides"]:
         if not isinstance(slide, dict):
             continue
-        number = slide.get("number")
+        number = slide.get("video_number", slide.get("number"))
         if presentation_url:
             slide["presentation_url"] = presentation_url
         if number in video_urls:
@@ -337,7 +337,7 @@ def sync_lesson_media(service: Any, slides_service: Any, root_id: str, local_roo
     data = json.loads(target.read_text(encoding='utf-8'))
     for slide in data['slides']:
         number = slide['number']
-        slide['video_url'] = videos.get(number)
+        slide['video_url'] = videos.get(slide.get('video_number', number))
         slide['presentation_url'] = None
         slide['presentation_embed_url'] = None
         if deck and 0 < number <= len(pages):
