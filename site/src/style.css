@@ -112,13 +112,35 @@ button:focus-visible { outline: 3px solid #E5B96A; outline-offset: 3px; }
 }
 
 .cardRef {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  align-self: flex-start;
+  padding: 5px 12px 6px;
   font-style: normal;
   font-weight: 800;
   font-size: 13px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: var(--sub);
+  color: #3d3532;
   margin-bottom: 2px;
+}
+.cardRef::before,
+.lessonCrumb::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -5px -10px -6px;
+  border-radius: 32px;
+  background:
+    radial-gradient(ellipse 24px 15px at 12% 58%, rgba(255, 255, 253, 0.96) 0 72%, transparent 74%),
+    radial-gradient(ellipse 32px 18px at 31% 35%, rgba(255, 249, 247, 0.98) 0 73%, transparent 75%),
+    radial-gradient(ellipse 38px 20px at 55% 63%, rgba(255, 253, 250, 0.98) 0 73%, transparent 75%),
+    radial-gradient(ellipse 29px 17px at 77% 36%, rgba(255, 246, 247, 0.95) 0 73%, transparent 75%),
+    radial-gradient(ellipse 24px 15px at 94% 58%, rgba(255, 251, 248, 0.96) 0 72%, transparent 74%),
+    linear-gradient(180deg, rgba(255, 252, 249, 0.96), rgba(249, 226, 233, 0.9));
+  box-shadow: 0 4px 12px rgba(115, 75, 82, 0.14);
+  filter: blur(0.35px);
 }
 
 .cardTitle {
@@ -159,21 +181,44 @@ button:focus-visible { outline: 3px solid #E5B96A; outline-offset: 3px; }
 .pageNt { background-image: url('/child-ministry/design/nt-bg.png'); }
 
 .pageHead {
-  max-width: 1100px;
+  position: relative;
+  z-index: 1;
+  display: table;
+  max-width: calc(100% - 20px);
   margin: 22px auto 34px;
+  padding: 18px 34px 20px;
   text-align: center;
 }
+.pageHead::before,
+.lessonTitleBlock::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -20px -34px -22px;
+  background:
+    /* Keep every lobe's transparent edge inside the painting box. */
+    radial-gradient(ellipse 48% 62% at 50% 53%, rgba(255, 251, 246, 0.96) 0 72%, transparent 75%),
+    radial-gradient(ellipse 18% 45% at 15% 58%, rgba(255, 248, 244, 0.94) 0 70%, transparent 74%),
+    radial-gradient(ellipse 22% 52% at 24% 40%, rgba(255, 253, 249, 0.97) 0 70%, transparent 74%),
+    radial-gradient(ellipse 24% 49% at 33% 62%, rgba(255, 250, 247, 0.98) 0 69%, transparent 74%),
+    radial-gradient(ellipse 20% 51% at 53% 39%, rgba(255, 253, 250, 0.97) 0 69%, transparent 74%),
+    radial-gradient(ellipse 25% 54% at 73% 58%, rgba(255, 247, 246, 0.95) 0 69%, transparent 74%),
+    radial-gradient(ellipse 17% 43% at 86% 40%, rgba(255, 241, 244, 0.91) 0 69%, transparent 74%),
+    radial-gradient(ellipse 35% 28% at 28% 77%, rgba(250, 230, 232, 0.78) 0 68%, transparent 74%),
+    radial-gradient(ellipse 29% 27% at 76% 78%, rgba(250, 226, 232, 0.76) 0 68%, transparent 74%);
+  filter: blur(1.5px) drop-shadow(0 9px 16px rgba(115, 75, 82, 0.13));
+}
 .pageTitle {
+  position: relative;
   margin: 0;
   font: 700 clamp(30px, 4vw, 42px)/1.15 var(--font-serif);
   color: var(--ink);
-  text-shadow: 0 0 14px rgba(255, 255, 255, 0.85), 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 .pageSub {
+  position: relative;
   margin: 8px 0 0;
   font: 600 17px var(--font-sans);
   color: var(--sub-2);
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 /* Reserve a side lane for the fixed illustration so it never covers a card. */
@@ -339,9 +384,11 @@ button:focus-visible { outline: 3px solid #E5B96A; outline-offset: 3px; }
   min-width: 0;
 }
 .lessonTitleBlock {
+  position: relative;
+  z-index: 1;
   flex: 0 0 auto;
   text-align: center;
-  padding: 0 8px;
+  padding: 14px 24px 15px;
 }
 .lessonHeadRight {
   flex: 1 1 0;
@@ -350,19 +397,23 @@ button:focus-visible { outline: 3px solid #E5B96A; outline-offset: 3px; }
 }
 .lessonHeadRight .progress { width: min(300px, 100%); margin-top: 6px; }
 .lessonCrumb {
-  display: block;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  align-self: flex-start;
+  padding: 5px 12px 6px;
   font: 800 13px var(--font-sans);
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ink);
+  color: #3d3532;
 }
 .lessonTitle {
-  margin: 8px 0 4px;
+  position: relative;
+  margin: 0 0 4px;
   font: 700 clamp(30px, 4vw, 42px)/1.15 var(--font-serif);
   color: var(--ink);
-  text-shadow: 0 0 12px rgba(255, 255, 255, 0.85), 0 2px 4px rgba(0, 0, 0, 0.6);
 }
-.lessonMeta { margin: 0; font: 600 15px var(--font-sans); color: var(--sub-2); text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 1px 2px rgba(0, 0, 0, 0.5); }
+.lessonMeta { position: relative; margin: 0; font: 600 15px var(--font-sans); color: var(--sub-2); }
 
 .progress {
   width: 300px;
@@ -541,7 +592,9 @@ button:focus-visible { outline: 3px solid #E5B96A; outline-offset: 3px; }
   .homeContent { top: 24%; right: 5%; width: 52%; }
   .infoPanel { top: 20%; right: 5%; width: 90%; }
   .lessonHead { flex-direction: column; align-items: stretch; gap: 16px; }
-  .lessonTitleBlock { text-align: left; padding: 0; }
+  .lessonTitleBlock { text-align: left; padding: 14px 20px 15px; }
+  .pageHead::before,
+  .lessonTitleBlock::before { left: 0; right: 0; }
   .lessonHeadRight { justify-content: flex-start; }
   .lessonHeadRight .progress { width: 100%; }
 }
