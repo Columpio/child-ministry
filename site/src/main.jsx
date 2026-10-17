@@ -1,6 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { ChevronLeft, ChevronRight, CheckCircle, Trophy, LockKeyhole } from 'lucide-react';
+import '@fontsource/playfair-display/cyrillic-500.css';
+import '@fontsource/playfair-display/cyrillic-600.css';
+import '@fontsource/playfair-display/cyrillic-700.css';
+import '@fontsource/playfair-display/cyrillic-800.css';
+import '@fontsource/playfair-display/latin-700.css';
+import '@fontsource/nunito/cyrillic-400.css';
+import '@fontsource/nunito/cyrillic-600.css';
+import '@fontsource/nunito/cyrillic-700.css';
+import '@fontsource/nunito/cyrillic-800.css';
+import '@fontsource/nunito/latin-400.css';
+import '@fontsource/nunito/latin-600.css';
+import '@fontsource/nunito/latin-700.css';
+import '@fontsource/nunito/latin-800.css';
 import './style.css';
 
 const STORAGE_KEY = 'bible-course-progress-v1';
@@ -180,7 +193,6 @@ function Landing() {
             <button className="homeCard disabled" disabled>Новый Завет</button>
             <button className="homeCard disabled" disabled>Трекер успеваемости</button>
           </div>
-          <div className="homeMobileBooks"><BookCards /></div>
         </section>
       )}
     </main>
@@ -218,6 +230,50 @@ function Result({ lesson, result, showAllAnswers, setShowAllAnswers }) {
   );
 }
 
+function renderInline(text) {
+  if (!text) return null;
+  const parts = String(text).split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((part, i) =>
+    part.startsWith('**') && part.endsWith('**')
+      ? <strong key={i}>{part.slice(2, -2)}</strong>
+      : part
+  );
+}
+
+function SlideCard({ slide, fallbackTitle }) {
+  const hasContent = Boolean(slide?.image || slide?.blocks?.length);
+  if (!hasContent) {
+    return <div className="missing">🖼️<b>Слайд пока не добавлен</b></div>;
+  }
+  return (
+    <article className="slideCard" aria-label={slide.title || fallbackTitle}>
+      <div className={`slideCardBody ${slide.image ? 'hasImage' : ''}`}>
+        <div className="slideTextCol">
+          <h2 className="slideHeading">{slide.title || fallbackTitle}</h2>
+          {(slide.blocks || []).map((b, i) => {
+            if (b.type === 'quote') {
+              return <blockquote className="slideQuote" key={i}>{renderInline(b.text)}</blockquote>;
+            }
+            if (b.type === 'list') {
+              return (
+                <ul className="slideList" key={i}>
+                  {b.items.map((item, j) => <li key={j}>{renderInline(item)}</li>)}
+                </ul>
+              );
+            }
+            return <p className="slideParagraph" key={i}>{renderInline(b.text)}</p>;
+          })}
+        </div>
+        {slide.image && (
+          <figure className="slideFigure">
+            <img src={pathFor(slide.image)} alt={slide.imageAlt || slide.title || ''} loading="eager" />
+          </figure>
+        )}
+      </div>
+    </article>
+  );
+}
+
 function Lesson({ lesson, lessonIndex, slide, slideIndex, answers, choose, canNext, finish }) {
   const total = lesson.slides.length;
   const goSlide = (i) => go(`#/old-testament/genesis/lesson/${lessonIndex}/slide/${i}`);
@@ -240,8 +296,8 @@ function Lesson({ lesson, lessonIndex, slide, slideIndex, answers, choose, canNe
         <div className="frame">
           {slide.video_url ? <iframe src={slide.video_url} title="Видео урока" allow="autoplay" allowFullScreen /> : <div className="missing">🎬<b>Видео пока не добавлено</b></div>}
         </div>
-        <div className="frame">
-          {slide.presentation_embed_url ? <iframe src={`${slide.presentation_embed_url}&rm=minimal`} title="Слайд презентации" /> : <div className="missing">🖼️<b>Слайд пока не добавлен</b></div>}
+        <div className="frame slideFrame">
+          <SlideCard slide={slide} fallbackTitle={lesson.title} />
         </div>
       </div>
       <section className="questions">
