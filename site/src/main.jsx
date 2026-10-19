@@ -89,10 +89,13 @@ function App() {
   }, [progressKey, lesson, slideIndex, answers, result]);
 
   const openLesson = (index) => { const saved = readProgress()[lessons[index]?.id ?? index]; go(`#/old-testament/genesis/lesson/${index}/slide/${saved?.slide || 0}`); };
-  const choose = (q, i, j) => setAnswers((a) => ({ ...a, [`${slideIndex}-${i}`]: { selected: j, question: q } }));
-  const canNext = () => !slide?.questions?.some((_, i) => answers[`${slideIndex}-${i}`] === undefined);
+  const qSlide = lesson?.single ? 0 : slideIndex;
+  const choose = (q, i, j) => setAnswers((a) => ({ ...a, [`${qSlide}-${i}`]: { selected: j, question: q } }));
+  const canNext = () => !(lesson?.single ? lesson.questions : slide?.questions)?.some((_, i) => answers[`${qSlide}-${i}`] === undefined);
   const finish = () => {
-    const items = []; lesson.slides.forEach((sl, si) => sl.questions?.forEach((q, qi) => { const a = answers[`${si}-${qi}`]; const correct = q.options?.findIndex((o) => o.correct === true || o.correct === 'true') ?? -1; items.push({ prompt: q.prompt, selectedText: a ? q.options[a.selected]?.text : 'Не выбран', correctText: correct >= 0 ? q.options[correct].text : 'Правильный ответ не указан', ok: a?.selected === correct }); }));
+    const items = [];
+    if (lesson.single) lesson.questions.forEach((q, qi) => { const a = answers[`0-${qi}`]; const correct = q.options.findIndex((o) => o.correct === true || o.correct === 'true'); items.push({ prompt: q.prompt, selectedText: a ? q.options[a.selected]?.text : 'Не выбран', correct, correctText: correct >= 0 ? q.options[correct].text : '', ok: a?.selected === correct }); });
+    else lesson.slides.forEach((sl, si) => sl.questions?.forEach((q, qi) => { const a = answers[`${si}-${qi}`]; const correct = q.options?.findIndex((o) => o.correct === true || o.correct === 'true') ?? -1; items.push({ prompt: q.prompt, selectedText: a ? q.options[a.selected]?.text : 'Не выбран', correctText: correct >= 0 ? q.options[correct].text : 'Правильный ответ не указан', ok: a?.selected === correct }); }));
     setResult({ items, score: items.filter((x) => x.ok).length }); go(`#/old-testament/genesis/lesson/${route.lesson}/result`);
   };
 
@@ -145,6 +148,7 @@ function App() {
   );
   if (route.page === 'result' && result) return <Result lesson={lesson} result={result} showAllAnswers={showAllAnswers} setShowAllAnswers={setShowAllAnswers} />;
   if (!lesson || !slide) return null;
+  if (lesson.single) return <SingleLesson lesson={lesson} lessonIndex={route.lesson} slide={slide} slideIndex={slideIndex} answers={answers} choose={choose} canNext={canNext} finish={finish} />;
   return <Lesson lesson={lesson} lessonIndex={route.lesson} slide={slide} slideIndex={slideIndex} answers={answers} choose={choose} canNext={canNext} finish={finish} />;
 }
 
@@ -271,6 +275,53 @@ function SlideCard({ slide, fallbackTitle }) {
         )}
       </div>
     </article>
+  );
+}
+
+function SingleLesson({ lesson, lessonIndex, slide, slideIndex, answers, choose, canNext, finish }) {
+  const total = lesson.slides.length;
+  const goSlide = (i) => go(`#/old-testament/genesis/lesson/${lessonIndex}/slide/${Math.min(Math.max(i, 0), total - 1)}`);
+  return (
+    <main className="page pageOt lessonPage">
+      <section className="lessonHead">
+        <div className="lessonHeadLeft">
+          <button className="backPill" onClick={() => go('#/old-testament/genesis')}>← К урокам</button>
+          <small className="lessonCrumb">УРОК {String(lessonIndex + 1).padStart(2, '0')} · {lesson.ref || 'БЫТИЕ'}</small>
+        </div>
+        <div className="lessonTitleBlock">
+          <h1 className="lessonTitle">{lesson.title}</h1>
+          <p className="lessonMeta">Слайд {slideIndex + 1} из {total}</p>
+        </div>
+        <div className="lessonHeadRight" />
+      </section>
+      <div className="media">
+        <div className="frame">
+          {lesson.video_url ? <iframe src={lesson.video_url} title="Видео урока" allow="autoplay" allowFullScreen /> : <div className="missing">🎬<b>Видео пока не добавлено</b></div>}
+        </div>
+        <div className="slidePager">
+          <div className="frame slideFrame"><SlideCard slide={slide} fallbackTitle={lesson.title} /></div>
+          <div className="pagerBar">
+            <button disabled={!slideIndex} onClick={() => goSlide(slideIndex - 1)}><ChevronLeft size={18} /> Назад</button>
+            <span>{slideIndex + 1} / {total}</span>
+            <button disabled={slideIndex === total - 1} onClick={() => goSlide(slideIndex + 1)}>Дальше <ChevronRight size={18} /></button>
+          </div>
+        </div>
+      </div>
+      <section className="questions">
+        <div className="questionHead"><h2>Проверь себя</h2></div>
+        {lesson.questions.map((q, i) => (
+          <div className="q" key={i}>
+            <label>{i + 1}. {q.prompt}</label>
+            {q.options.map((o, j) => (
+              <label className="option" key={j}><input type="radio" name={`q-${i}`} checked={answers[`0-${i}`]?.selected === j} onChange={() => choose(q, i, j)} />{o.text}</label>
+            ))}
+          </div>
+        ))}
+        <button className="check" disabled={!canNext()} onClick={finish}>
+          <CheckCircle size={18} /> {canNext() ? 'Завершить урок' : 'Ответь на все вопросы'}
+        </button>
+      </section>
+    </main>
   );
 }
 

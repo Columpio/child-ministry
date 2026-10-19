@@ -120,7 +120,8 @@ for (const ce of fs.readdirSync(root, { withFileTypes: true }).filter((x) => x.i
       ? parseSlidesMarkdown(fs.readFileSync(slidesMdPath, 'utf8'), dir, course, name)
       : [];
 
-    const count = Math.max(qjson?.slides?.length || 0, parsedMdSlides.length);
+    const single = Array.isArray(qjson?.questions);
+    const count = single ? parsedMdSlides.length : Math.max(qjson?.slides?.length || 0, parsedMdSlides.length);
     const slides = [];
     for (let i = 0; i < count; i++) {
       const q = qjson?.slides?.[i] || {};
@@ -141,6 +142,9 @@ for (const ce of fs.readdirSync(root, { withFileTypes: true }).filter((x) => x.i
       title: name.replace(/^\d+\.\s*/, ''),
       ref: refs[name] || '',
       slides,
+      single,
+      video_url: single ? (qjson.video_url || null) : null,
+      questions: single ? qjson.questions : [],
       driveFolder: 'https://drive.google.com/drive/folders/1vD6ZgzvhjIZC0YWEeryQIzSyjPDqm51e',
     });
   }

@@ -547,6 +547,17 @@ button:focus-visible { outline: 3px solid #E5B96A; outline-offset: 3px; }
   box-shadow: 0 8px 22px rgba(60, 40, 20, 0.16);
 }
 
+.slidePager { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.pagerBar { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.pagerBar span { font: 800 15px var(--font-sans); color: var(--sub-2); }
+.pagerBar button {
+  display: flex; align-items: center; gap: 4px;
+  border: 1.5px solid var(--gold-border); border-radius: 999px;
+  background: var(--gold); color: #3A3125; padding: 8px 18px;
+  font: 800 15px var(--font-sans); cursor: pointer;
+}
+.pagerBar button:disabled { background: #D7D1C4; border-color: #B9B2A4; color: #9A9188; cursor: default; }
+
 .questions {
   max-width: var(--lesson-content-width);
   margin: 24px auto 0;
@@ -610,6 +621,7 @@ button:focus-visible { outline: 3px solid #E5B96A; outline-offset: 3px; }
 
 .summaryPage { text-align: center; padding-top: 40px; }
 .summaryPage .backPill { position: relative; }
+.summaryPage .check { display: inline-flex; width: auto; min-width: 200px; padding: 12px 36px; margin-top: 24px; }
 .celebrate { font-size: 48px; margin-top: 12px; }
 .trophy { color: #C9A44C; filter: drop-shadow(3px 4px 0 rgba(160, 120, 60, 0.35)); }
 .summaryPage h1 { margin: 12px 0 4px; font: 700 42px var(--font-serif); color: var(--ink); }
