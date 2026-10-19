@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "IDE MCP Server": {
+        "type": "sse",
+        "url": "http://127.0.0.1:64542/sse",
+        "headers": {
+            "IJ_MCP_SERVER_PROJECT_PATH": "C:/JBIDEProjectsTMP/veai-web"
+        }
+    },
+    "chrome": {
+        "disabled": false,
+        "command": "npx",
+        "args": [
+            "chrome-devtools-mcp@latest",
+            "--isolated",
+            "--experimentalPageIdRouting",
+            "--no-usage-statistics",
+            "--no-performance-crux"
+        ]
+    }
+  }
+}
